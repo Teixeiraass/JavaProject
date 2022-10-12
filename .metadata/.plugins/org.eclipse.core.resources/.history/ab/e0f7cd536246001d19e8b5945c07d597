@@ -1,0 +1,25 @@
+
+import java.util.*;
+
+public class VontadeDeMeMatar {
+
+	public static void main(String[] args) {
+			
+		Scanner ler = new Scanner(System.in);
+		
+		int num;
+		System.out.println("Digite um numero");
+		num = ler.nextInt();
+		
+		int cont = 1;
+		
+			for(int i = num;i >= 1; i-- ) {
+				for(int a = cont; a <= num;) {
+					System.out.print("*");
+				}
+				System.out.print("\n");
+				num--;
+			}
+	}
+
+}

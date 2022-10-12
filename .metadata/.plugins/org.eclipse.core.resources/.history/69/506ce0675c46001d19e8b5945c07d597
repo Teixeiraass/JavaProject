@@ -1,0 +1,28 @@
+package asterisco;
+
+import java.util.Scanner;
+		
+		
+public class Exercicio {
+
+	public static void main(String[] args) {
+		
+		Scanner ler = new Scanner(System.in);
+		
+		//int numero;
+		String asterisco = "*";
+		
+		//System.out.println("Digite um numero");
+		//numero = ler.nextInt();
+		
+		int a;
+		for(int i = 8; i >= 1; i--) {
+			for(a = 8; a >= 1; a--) {
+				System.out.print(asterisco);
+			}
+			System.out.print("\n");
+			a = a-1;
+		}
+	}
+
+}

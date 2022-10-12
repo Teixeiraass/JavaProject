@@ -1,0 +1,19 @@
+package exercicio;
+
+import java.util.Scanner;
+
+public class Faculdade {
+	
+	public static void main(String[] args) {
+		
+		Scanner ler = new Scanner(System.in);
+		
+		int num;
+		
+		System.out.println("Digite o numero que a maquina tem que advinhar");
+		num = ler.nextInt();
+		
+		System.out.println(num);
+	}
+	
+}

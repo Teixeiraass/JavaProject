@@ -1,0 +1,24 @@
+
+import java.util.*;
+
+public class VontadeDeMeMatar {
+
+	public static void main(String[] args) {
+			
+		Scanner ler = new Scanner(System.in);
+		
+		int num;
+		num = 0;
+		
+		int cont = 5;
+		
+			for(int i = cont;i >= 1; i-- ) {
+				for(int a = num; a <= 5; a++) {
+					System.out.print("*");
+				}
+				System.out.print("\n");
+				num++;
+			}
+	}
+
+}

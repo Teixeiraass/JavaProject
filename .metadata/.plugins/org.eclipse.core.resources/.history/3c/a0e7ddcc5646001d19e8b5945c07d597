@@ -1,0 +1,26 @@
+package exercicio;
+
+import java.util.*;
+
+public class Faculdade {
+	
+	public static void main(String[] args) {
+		
+		Scanner ler = new Scanner(System.in);
+		
+		Random gerador = new Random();
+		int num, numR;
+		numR = gerador.nextInt(10);
+		
+		System.out.println("Digite um numero de 0 a 100 que a maquina tem que advinhar");
+		num = ler.nextInt();
+		
+		while(num != numR) {
+			System.out.println("Não é o numero " + numR + ", tente novamente!");
+			numR = gerador.nextInt(101);
+		}
+		
+		System.out.print("Você acertou, o numero correto era " + numR );
+	}
+	
+}

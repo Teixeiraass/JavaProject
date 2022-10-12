@@ -1,0 +1,21 @@
+package exercicio;
+
+public class Faculdade {
+	
+	public static void main(String[] args) {
+		int x = 5;
+
+        int y = 6;
+
+
+        for(int i = x; i > 0; i--){
+        	y = y + i;
+        	
+        	while(y%x != 0) {
+        		x = x+1;
+        	}
+        }
+        System.out.println(x+y);
+	}
+	
+}

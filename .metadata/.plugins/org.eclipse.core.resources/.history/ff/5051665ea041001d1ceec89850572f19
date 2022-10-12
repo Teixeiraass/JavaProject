@@ -1,0 +1,27 @@
+package asterisco;
+
+import java.util.Scanner;
+		
+		
+public class Exercicio {
+
+	public static void main(String[] args) {
+		
+		Scanner ler = new Scanner(System.in);
+		
+		int numero;
+		
+		System.out.println("Digite um numero");
+		numero = ler.nextInt();
+		
+		for(int i = 1; i < numero; i++ ) {
+			
+			System.out.println("*");
+			for(int a = 1; a < numero; a++) {
+				System.out.println("*");
+			}
+			System.out.println("\n");
+		}
+	}
+
+}
